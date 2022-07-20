@@ -1,0 +1,153 @@
+*{
+  background-color: lightblue;
+}
+
+
+
+header .timer{
+  position: absolute;
+  text-align:right;
+  top:10px;
+  right: 30px;
+
+  }
+
+.funny{
+  font-size: 40px;
+}
+
+
+/*start screen*/
+
+.start{
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  
+}
+
+ /*used to customize visibility of slaghelf*/
+.slaghelf{
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.hide
+{
+  display:none;
+}
+/*customizes the inital input screen*/
+.booger{
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+/*highscore screen*/
+
+.highscores{
+  
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+
+}
+
+section h3{
+  text-align: center;
+  font-size: 40px;
+
+
+}
+
+section h4{
+
+  font-size: 30px;
+
+}
+
+section h5{
+  font-size: 40px;
+  position:relative;
+  bottom: 50px;
+}
+
+article h6{
+  font-size: 50px;
+  position: relative;
+  bottom: 70px;
+
+}
+
+article ul{
+  position: relative;
+  bottom:180px;
+
+  font-size: 50px;
+
+  max-width:  500px;
+  
+}
+
+
+section{
+
+  margin-top: 100px;
+
+}
+
+section div{
+
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+section p{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  right:100px;
+
+
+}
+
+
+
+
+button{
+  display:flex;
+  align-content: center;
+  width: 130px;
+  height: 40px;
+  padding: 10px;
+  background-color: peachpuff;
+margin: 24px;
+cursor: pointer;
+font-size: 16px;
+color: black;
+border-radius: 5px;
+text-align: center;
+}
